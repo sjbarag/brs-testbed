@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="Testbed" extends="Scene">
+    <children>
+        <Label id="hello"
+            text="Hello, world!"
+            width="1280"
+            height="720"
+            horizAlign="center"
+            vertAlign="center"/>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/Main.brs"/>
+</component>
