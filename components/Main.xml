@@ -6,8 +6,7 @@
             focusable="true">
             <ContentNode role="content">
                 <TestFile title="foo.brs" uri="pkg:/testfiles/foo.brs"/>
-                <TestFile title="bar.brs" uri="pkg:/testfiles/bar.brs"/>
-                <TestFile title="baz.brs" uri="pkg:/testfiles/baz.brs"/>
+                <TestFile title="Single-Line If: else if" uri="pkg:/testfiles/elseif-in-single-line-if.brs"/>
             </ContentNode>
         </LabelList>
     </children>
