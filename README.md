@@ -11,7 +11,7 @@ The channel builds with GNU Make, but that's just a wrapper around `zip`.  Build
 ### Adding Test Files
 Test files are hosted in `./testfiles/`, and should keep their code in a `sub Main` block.  That's not strictly required, but it helps to isolate test files from each other.
 
-*NOTE:* The list of files available to run is _not_ generated automatically, so adding a new test file requires a modification to `Main.xml` to point to it.  Simply add another `<TestFile>` element like the ones that already exist.
+**NOTE:** The list of files available to run is _not_ generated automatically, so adding a new test file requires a modification to `Main.xml` to point to it.  Simply add another `<TestFile>` element like the ones that already exist.
 
 ### Installing
 1. Ensure your Roku has developer mode enabled.  If you're not sure, go through [Roku's Setup Guide](https://sdkdocs.roku.com/display/sdkdoc/Developer+Setup+Guide) again.
