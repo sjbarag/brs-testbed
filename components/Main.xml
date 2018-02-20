@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="Main" extends="Scene" initialFocus="testFiles">
+    <children>
+        <LabelList
+            id="testFiles"
+            focusable="true">
+            <ContentNode role="content">
+                <TestFile title="foo.brs" uri="pkg:/components/testfiles/foo.brs"/>
+                <TestFile title="bar.brs" uri="pkg:/components/testfiles/bar.brs"/>
+                <TestFile title="baz.brs" uri="pkg:/components/testfiles/baz.brs"/>
+            </ContentNode>
+        </LabelList>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/Main.brs"/>
+    <script type="text/brightscript" uri="pkg:/components/scripts/TestFilesList.brs"/>
+</component>

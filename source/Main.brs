@@ -1,11 +1,14 @@
 sub Main()
-    print "welcome"
-    mainScreen = createObject("roSGScreen")
+    screen = createObject("roSGScreen")
     m.msgPort = createObject("roMessagePort")
-    mainScreen.setMessagePort(m.msgPort)
+    screen.setMessagePort(m.msgPort)
 
-    testbed = mainScreen.createScene("Testbed")
-    mainScreen.show()
+    main = screen.createScene("Main")
+
+    ' use #222222 as the background color, which requires assigning an empty string as the background URI
+    main.backgroundUri = ""
+    main.backgroundColor = "0x222222ff"
+    screen.show()
 
     while(true)
         msg = wait(0, m.msgPort)
