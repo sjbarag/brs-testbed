@@ -5,9 +5,9 @@
             id="testFiles"
             focusable="true">
             <ContentNode role="content">
-                <TestFile title="foo.brs" uri="pkg:/components/testfiles/foo.brs"/>
-                <TestFile title="bar.brs" uri="pkg:/components/testfiles/bar.brs"/>
-                <TestFile title="baz.brs" uri="pkg:/components/testfiles/baz.brs"/>
+                <TestFile title="foo.brs" uri="pkg:/testfiles/foo.brs"/>
+                <TestFile title="bar.brs" uri="pkg:/testfiles/bar.brs"/>
+                <TestFile title="baz.brs" uri="pkg:/testfiles/baz.brs"/>
             </ContentNode>
         </LabelList>
     </children>
