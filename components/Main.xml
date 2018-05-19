@@ -7,6 +7,8 @@
             <ContentNode role="content">
                 <TestFile title="foo.brs" uri="pkg:/testfiles/foo.brs"/>
                 <TestFile title="Single-Line If: else if" uri="pkg:/testfiles/elseif-in-single-line-if.brs"/>
+                <TestFile title="Print functions" uri="pkg:/testfiles/tab.brs"/>
+                <TestFile title="Print functions" uri="pkg:/testfiles/tab.brs"/>
             </ContentNode>
         </LabelList>
     </children>
