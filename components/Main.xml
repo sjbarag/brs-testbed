@@ -8,7 +8,7 @@
                 <TestFile title="foo.brs" uri="pkg:/testfiles/foo.brs"/>
                 <TestFile title="Single-Line If: else if" uri="pkg:/testfiles/elseif-in-single-line-if.brs"/>
                 <TestFile title="Print functions" uri="pkg:/testfiles/tab.brs"/>
-                <TestFile title="Print functions" uri="pkg:/testfiles/tab.brs"/>
+                <TestFile title="'As' as a keyword (AaaK?)" uri="pkg:/testfiles/as-reserved-word.brs"/>
             </ContentNode>
         </LabelList>
     </children>
